@@ -25,12 +25,16 @@ def getUserInput():
         guess=input("Please input 4 digits: ")
         if checkInputValid(guess):
             break
+        else:
+            print("Wrong format! Please input again.")
 
 def generateAnswer():
     global answer
     for i in range(0,4):
         while True:
             present=randint(0,9)
+            if i==0 and present==0:
+                continue
             presentChr=chr(ord("0")+present)
             if answer.find(presentChr)==-1:
                 break
