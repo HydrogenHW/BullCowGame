@@ -59,7 +59,7 @@ def countB():
 #Main
 generateAnswer()
 attempts=0
-print(answer)
+#print(answer)
 while True:
     getUserInput()
     attempts+=1
