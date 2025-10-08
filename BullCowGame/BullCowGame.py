@@ -1,4 +1,3 @@
-
 #Code by Hydrogen_HW
 #还原侧身，以玄鸟之资缤纷此尘荏#
 
@@ -70,4 +69,5 @@ while True:
         print(f"You Win!!\nAttempts:{attempts}")
         break
     else:
+
         print(f"{a} A (Bulls) {b} B (Cows)")
